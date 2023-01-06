@@ -1,7 +1,4 @@
-import { Footer } from "../components/Footer";
-import { Header } from "../components/Header";
-
-const contactInformation = {
+const footerNavigation = {
   social: [
     {
       name: "Facebook",
@@ -54,31 +51,33 @@ const contactInformation = {
   ],
 };
 
-export const Contact = () => {
+export const Footer = () => {
   return (
-    <div className="bg-esteban_blue">
-      <Header />
-{/* 
-      <div className="mx-auto max-w-7xl py-24 px-6 sm:py-32 lg:px-8">
-        <h2 className="text-3xl font-bold tracking-tight text-white">
-          My contact information
-        </h2>
-        <div className="mt-10 grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4">
-          {contactInformation.social.map((item) => (
-            <a
-              key={item.name}
-              href={item.href}
-              target="_blank"
-              className="text-white hover:text-gray-50"
-            >
-              <span className="sr-only">{item.name}</span>
-              <item.icon className="h-6 w-6" aria-hidden="true" />
-            </a>
-          ))}
+    <footer className="bg-esteban_blue" aria-labelledby="footer-heading">
+      <h2 id="footer-heading" className="sr-only">
+        Footer
+      </h2>
+      <div className="mx-auto max-w-7xl px-4 pt-16 pb-8 sm:px-6 lg:px-8 lg:pt-24">
+        <div className="xl:grid xl:grid-cols-3 xl:gap-8"></div>
+        <div className="mt-12 border-t border-gray-200 pt-8 md:flex md:items-center md:justify-between lg:mt-16">
+          <div className="flex space-x-6 md:order-2">
+            {footerNavigation.social.map((item) => (
+              <a
+                key={item.name}
+                href={item.href}
+                target="_blank"
+                className="text-white hover:text-gray-50"
+              >
+                <span className="sr-only">{item.name}</span>
+                <item.icon className="h-6 w-6" aria-hidden="true" />
+              </a>
+            ))}
+          </div>
+          <p className="mt-8 text-base text-white md:order-1 md:mt-0">
+            &copy; 2023 by Esteban. All rights reserved.
+          </p>
         </div>
-      </div> */}
-
-      <Footer />
-    </div>
+      </div>
+    </footer>
   );
 };
