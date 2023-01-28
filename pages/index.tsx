@@ -1,6 +1,7 @@
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import Image from "next/image";
+import Link from "next/link";
 import EstebanImage from "../public/Esteban_Salguero.jpg";
 
 const Index = () => {
@@ -30,12 +31,12 @@ const Index = () => {
                   </span>
                 </h1>
                 <div className="mx-auto mt-10 max-w-sm sm:flex sm:max-w-none sm:justify-center">
-                  <a
+                  <Link
                     href="/resume"
                     className="flex items-center justify-center rounded-md border border-transparent bg-white px-4 py-3 text-base font-medium text-esteban_blue shadow-sm hover:bg-esteban_blue hover:text-white sm:px-8"
                   >
                     See my resume
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
