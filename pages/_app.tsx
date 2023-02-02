@@ -10,7 +10,9 @@ const nhost = new NhostClient({
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <NhostProvider nhost={nhost} initial={pageProps.nhostSession}>
-      <Component {...pageProps} />
+      <div className="h-full w-full">
+        <Component {...pageProps} />
+      </div>
     </NhostProvider>
   );
 }
