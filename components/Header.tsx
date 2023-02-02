@@ -3,7 +3,6 @@ import { Popover, Transition } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
 import Link from "next/link";
-import Icon from "../public/Vinyl.png";
 
 export const Header = () => {
   return (
@@ -14,7 +13,7 @@ export const Header = () => {
             <Link href="/">
               <Image
                 className="h-8 w-auto sm:h-10"
-                src={Icon}
+                src="https://iconsplace.com/wp-content/uploads/_icons/ffffff/256/png/computer-icon-18-256.png"
                 width={50}
                 height={50}
                 alt=""
@@ -62,7 +61,7 @@ export const Header = () => {
                   <div>
                     <Image
                       className="h-8 w-auto"
-                      src={Icon}
+                      src="https://iconsplace.com/wp-content/uploads/_icons/ffffff/256/png/computer-icon-18-256.png"
                       width={50}
                       height={50}
                       alt="Your Company"

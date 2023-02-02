@@ -2,7 +2,7 @@ import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import Image from "next/image";
 import Link from "next/link";
-import EstebanImage from "../public/Esteban_Salguero.jpg";
+import {} from "@nhost/nextjs";
 
 const Index = () => {
   return (
@@ -16,8 +16,10 @@ const Index = () => {
               <div className="absolute inset-0">
                 <Image
                   className="h-full w-full object-cover"
-                  src={EstebanImage}
+                  src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
                   alt="People working on laptops"
+                  width={1000}
+                  height={500}
                 />
                 <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-esteban_blue_light mix-blend-multiply" />
               </div>
