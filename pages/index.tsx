@@ -9,10 +9,10 @@ const Index = () => {
     <>
       <div className="bg-esteban_blue">
         <Header />
-        <main className="mt-20">
+        <main className="min-h-full">
           <div className="relative h-full w-full">
             <div className="absolute inset-x-0 bottom-0 h-1/2 bg-esteban_blue" />
-            <div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
+            <div className="mx-auto max-w-7xl sm:px-4 lg:px-8">
               <div className="relative shadow-xl sm:overflow-hidden sm:rounded-2xl">
                 <div className="absolute inset-0">
                   <Image
@@ -24,7 +24,7 @@ const Index = () => {
                   />
                   <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-esteban_blue_light mix-blend-multiply" />
                 </div>
-                <div className="relative px-4 py-16 sm:px-6 sm:py-16 lg:py-32 lg:px-8">
+                <div className="relative px-4 py-16 sm:px-6 sm:py-56 lg:py-32 lg:px-80">
                   <h1 className="text-center text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
                     <span className="block text-white">
                       Hi, I&apos;m Esteban Salguero
@@ -46,8 +46,6 @@ const Index = () => {
             </div>
           </div>
         </main>
-      </div>
-      <div className="relative left-0 bottom-0 right-0">
         <Footer />
       </div>
     </>
