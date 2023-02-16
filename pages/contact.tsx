@@ -1,4 +1,4 @@
-import { Footer } from "../components/Footer";
+import Link from "next/link";
 import { Header } from "../components/Header";
 
 const contactInformation = {
@@ -59,13 +59,39 @@ const Contact = () => {
     <div className="bg-esteban_blue">
       <Header />
       <main className="mt-20">
-        <div className="relative h-full w-full items-center justify-center text-center">
-          <h1 className="text-3xl font-bold text-white">
+        <div className="text-center">
+          <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
             Contact
-          </h1>
-          <h3 className="text-xl font-bold text-white">
-          (coming soon)
-          </h3>
+          </h2>
+        </div>
+        <div className="relative h-full w-full items-center justify-center text-center">
+          <p className="mt-4 text-lg leading-8 text-gray-400">
+            You can find me on the following social media platforms
+          </p>
+          <div className="bg-esteban_blue py-24 sm:py-32">
+            <div className="mx-auto max-w-7xl px-6 lg:px-32">
+              <div className="-mx-1 grid grid-cols-1 gap-0.5 overflow-hidden sm:mx-0 rounded-2xl md:grid-cols-2">
+                {contactInformation.social.map((item) => (
+                  <div key={item.name} className="bg-white/5 p-8 sm:p-10">
+                    <Link
+                      href={item.href}
+                      target="_blank"
+                      className="text-white hover:text-gray-50"
+                    >
+                      <div className="flex items-center justify-center">
+                        <div className="flex-shrink-0">
+                          <item.icon className="h-10 w-10" />
+                        </div>
+                        <div className="ml-3">
+                          <p className="text-base font-medium">{item.name}</p>
+                        </div>
+                      </div>
+                    </Link>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
         </div>
       </main>
     </div>
