@@ -1,6 +1,64 @@
-import Link from "next/link";
 import { Header } from "../components/Header";
+import { useState } from "react";
+import {
+  AcademicCapIcon,
+  CheckCircleIcon,
+  LanguageIcon,
+} from "@heroicons/react/20/solid";
+import Link from "next/link";
 
+const formalEducation = [
+  {
+    name: "Fidélitas University",
+    description: "Systems Engineering – 2021 - Studying",
+    icon: AcademicCapIcon,
+  },
+  {
+    name: "Professional Technical College of Granadilla",
+    description: "Baccalaureate in Secondary Education – 2020",
+    icon: AcademicCapIcon,
+  },
+];
+const certificates = [
+  {
+    name: "CCNAv7: Introduction to Networks",
+    description: "Cisco Networking Academy (2021)",
+    icon: AcademicCapIcon,
+  },
+  {
+    name: "Introduction to IoT",
+    description: "Cisco Networking Academy (2021)",
+    icon: AcademicCapIcon,
+  },
+  {
+    name: "Scrum Fundamentals Certified",
+    description: "SCRUMstudy (2021)",
+    icon: AcademicCapIcon,
+  },
+  {
+    name: "CCNAv7: Switching, Routing and Wireless Essentials",
+    description: "Cisco Networking Academy (2022)",
+    icon: AcademicCapIcon,
+  },
+];
+const team = [
+  {
+    name: "Leslie Alexander",
+    role: "Co-Founder / CEO",
+    imageUrl:
+      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
+    location: "Toronto, Canada",
+  },
+  // More people...
+];
+const benefits = [
+  "Competitive salaries",
+  "Flexible work hours",
+  "30 days of paid vacation",
+  "Annual team retreats",
+  "Benefits for you and your family",
+  "A great work environment",
+];
 const jobs = [
   {
     name: "NovuSource",
@@ -20,27 +78,195 @@ const jobs = [
   },
   // More jobs...
 ];
+const languages = [
+  {
+    name: "Spanish",
+    level: "Native",
+    icon: LanguageIcon,
+  },
+  {
+    name: "English",
+    level: "70%",
+    icon: LanguageIcon,
+  },
+];
 
 const Resume = () => {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
   return (
     <div className="bg-esteban_blue">
       <Header />
-      <main className="mt-20">
-        <div className="text-center">
-          <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
-            Resume
-          </h2>
+      <main className="relative isolate">
+        {/* Background */}
+        <div
+          className="absolute inset-x-0 top-4 -z-10 flex transform-gpu justify-center overflow-hidden blur-3xl"
+          aria-hidden="true"
+        >
+          <div
+            className="aspect-[1108/632] w-[69.25rem] flex-none bg-gradient-to-r from-[#80caff] to-[#4f46e5] opacity-25"
+            style={{
+              clipPath:
+                "polygon(73.6% 51.7%, 91.7% 11.8%, 100% 46.4%, 97.4% 82.2%, 92.5% 84.9%, 75.7% 64%, 55.3% 47.5%, 46.5% 49.4%, 45% 62.9%, 50.3% 87.2%, 21.3% 64.1%, 0.1% 100%, 5.4% 51.1%, 21.4% 63.9%, 58.9% 0.2%, 73.6% 51.7%)",
+            }}
+          />
         </div>
-        <div className="relative h-full w-full items-center justify-center text-center">
-          <div className="mx-auto max-w-7xl px-6 text-center lg:px-8">
-            <div className="mx-auto max-w-2xl">
-              <p className="mt-4 text-lg leading-8 text-gray-400">
-                My professional experience
-              </p>
+
+        {/* Header section */}
+        <div className="px-6 lg:px-8">
+          <div className="mx-auto max-w-2xl text-center sm:pt-10">
+            <h2 className="text-4xl font-bold tracking-tight text-white sm:text-5xl">
+              José Esteban Salguero Vásquez
+            </h2>
+            <p className="mt-6 text-lg leading-8 text-gray-300">
+              Software Engineer
+            </p>
+          </div>
+        </div>
+
+        {/* Content section */}
+        <div className="mx-auto mt-20 max-w-7xl px-6 lg:px-8">
+          <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
+            <div className="grid max-w-xl grid-cols-1 gap-8 text-base leading-7 text-gray-300 lg:max-w-none lg:grid-cols-2">
+              <div>
+                <h3 className="text-lg font-medium leading-6 text-white">
+                  Professional Experience:
+                </h3>
+                <p className="mt-2">
+                  05/2022 – Present [Software Developer React/React Native]
+                  [Novusource]
+                </p>
+                <div className="mt-5">
+                  <h4 className="text-lg font-medium leading-6 text-white">
+                    Responsibilities:
+                  </h4>
+                  <p className="mt-2">
+                    Activities carried out by me at Novusource as a software
+                    developer are:
+                    <br />
+                    1. Development of web applications using React.
+                    <br />
+                    2. Development of mobile applications using React Native.
+                    <br />
+                    3. Consumption of APIs.
+                    <br />
+                    4. Design of pages and components using Tailwind as a
+                    framework.
+                    <br />
+                    5. Management of the Git version control system.
+                    <br />
+                    6. Creation of components with StoryBook.
+                    <br />
+                    7. Development of Queries using GraphQL.
+                    <br />
+                    8. Interface design and improvement of the user experience
+                    using Adobe XD and Figma tools.
+                    <br />
+                  </p>
+                </div>
+              </div>
+              <div>
+                <h3 className="text-lg font-medium leading-6 text-white">
+                  Professional Objective:
+                </h3>
+                <p className="mt-2">
+                  Technology enthusiast with great willingness to learn the use
+                  of new tools constantly, willing to perform different tasks
+                  involved in software development, especially in
+                  frontend-focused programming using Typescript as development
+                  language, Tailwind as design framework and using React as
+                  development library, as well as React Native if it is mobile
+                  development.
+                </p>
+                <div className="mt-5">
+                  <h4 className="text-lg font-medium leading-6 text-white">
+                    About me:
+                  </h4>
+                  <p className="mt-2">
+                    Advanced student of Systems Engineering at Fidélitas
+                    University with 89% of the degree completed, willing to
+                    learn new technologies and committed to delivering the best
+                    quality of work.
+                  </p>
+                </div>
+              </div>
             </div>
+          </div>
+        </div>
+        <div className="mx-auto mt-16 max-w-7xl px-6 sm:mt-16 lg:px-8">
+          <div className="mx-auto max-w-7xl lg:mx-0">
+            <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
+              Formal Education:
+            </h2>
+          </div>
+          <dl className="mx-auto mt-8 grid max-w-2xl grid-cols-1 gap-8 text-base leading-7 text-gray-300 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:gap-x-16">
+            {formalEducation.map((value) => (
+              <div key={value.name} className="relative pl-9">
+                <dt className="inline font-semibold text-white">
+                  <value.icon
+                    className="absolute left-1 top-1 h-5 w-5 text-indigo-500"
+                    aria-hidden="true"
+                  />
+                  {value.name}
+                </dt>{" "}
+                <dd className="inline">{value.description}</dd>
+              </div>
+            ))}
+          </dl>
+        </div>
+
+        <div className="mx-auto mt-8 max-w-7xl px-6 sm:mt-8 lg:px-8">
+          <div className="mx-auto max-w-7xl lg:mx-0">
+            <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
+              Certificates:
+            </h2>
+          </div>
+          <dl className="mx-auto mt-8 grid max-w-2xl grid-cols-1 gap-8 text-base leading-7 text-gray-300 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:gap-x-16">
+            {certificates.map((value) => (
+              <div key={value.name} className="relative pl-9">
+                <dt className="inline font-semibold text-white">
+                  <value.icon
+                    className="absolute left-1 top-1 h-5 w-5 text-indigo-500"
+                    aria-hidden="true"
+                  />
+                  {value.name}
+                </dt>{" "}
+                <dd className="inline">{value.description}</dd>
+              </div>
+            ))}
+          </dl>
+        </div>
+
+        <div className="mx-auto mt-8 max-w-7xl px-6 sm:mt-8 lg:px-8">
+          <div className="mx-auto max-w-7xl lg:mx-0">
+            <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
+              Languages:
+            </h2>
+          </div>
+          <dl className="mx-auto mt-8 grid max-w-2xl grid-cols-1 gap-8 text-base leading-7 text-gray-300 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:gap-x-16">
+            {languages.map((value) => (
+              <div key={value.name} className="relative pl-9">
+                <dt className="inline font-semibold text-white">
+                  <value.icon
+                    className="absolute left-1 top-1 h-5 w-5 text-indigo-500"
+                    aria-hidden="true"
+                  />
+                  {value.name}
+                </dt>{" "}
+                <dd className="inline">({value.level})</dd>
+              </div>
+            ))}
+          </dl>
+        </div>
+
+        <div className="mx-auto mt-16 max-w-7xl px-6 sm:mt-16 lg:px-8">
+          <div className="mx-auto max-w-7xl lg:mx-0">
+            <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
+              Work Experience:
+            </h2>
             <ul
               role="list"
-              className="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-6 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8"
+              className="mx-auto mt-8 grid max-w-2xl grid-cols-1 gap-6 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8"
             >
               {jobs.map((jobs) => (
                 <li
