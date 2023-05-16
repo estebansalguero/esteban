@@ -2,7 +2,6 @@ import { Header } from "../components/Header";
 import { useState } from "react";
 import {
   AcademicCapIcon,
-  CheckCircleIcon,
   LanguageIcon,
 } from "@heroicons/react/20/solid";
 import Link from "next/link";
@@ -40,24 +39,6 @@ const certificates = [
     description: "Cisco Networking Academy (2022)",
     icon: AcademicCapIcon,
   },
-];
-const team = [
-  {
-    name: "Leslie Alexander",
-    role: "Co-Founder / CEO",
-    imageUrl:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-    location: "Toronto, Canada",
-  },
-  // More people...
-];
-const benefits = [
-  "Competitive salaries",
-  "Flexible work hours",
-  "30 days of paid vacation",
-  "Annual team retreats",
-  "Benefits for you and your family",
-  "A great work environment",
 ];
 const jobs = [
   {
