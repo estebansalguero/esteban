@@ -1,55 +1,47 @@
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
-import Image from "next/image";
 import Link from "next/link";
-import {} from "@nhost/nextjs";
 
 const Index = () => {
   return (
-    <>
-      <div className="bg-esteban_blue">
-        <Header />
-        <main className="min-h-full">
-          <div className="relative h-full w-full">
-            <div className="absolute inset-x-0 bottom-0 h-1/2 bg-esteban_blue" />
-            <div className="mx-auto max-w-7xl sm:px-4 lg:px-8">
-              <div className="relative shadow-xl sm:overflow-hidden sm:rounded-2xl">
-                <div className="absolute inset-0">
-                  <Image
-                    className="h-full w-full object-cover"
-                    src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-                    alt="People working on laptops"
-                    width={1000}
-                    height={500}
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-esteban_blue_light mix-blend-multiply" />
-                </div>
-                <div className="relative px-4 py-16 sm:px-6 sm:py-56 lg:py-32 lg:px-80">
-                  <h1 className="text-center text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
-                    <span className="block text-white">
-                      Hi, I&apos;m Esteban Salguero
-                    </span>
-                    <span className="block text-indigo-200">
-                      Software Engineer
-                    </span>
-                  </h1>
-                  <div className="mx-auto mt-10 max-w-sm sm:flex sm:max-w-none sm:justify-center">
-                    <Link
-                      href="/resume"
-                      className="flex items-center justify-center rounded-md border border-transparent bg-white px-4 py-3 text-base font-medium text-esteban_blue shadow-sm hover:bg-esteban_blue hover:text-white sm:px-8"
-                    >
-                      See my resume
-                    </Link>
-                  </div>
-                </div>
+    <div className="bg-esteban_blue">
+      <Header />
+      <main className="min-h-full isolate">
+        <div
+          className="absolute w-full h-full inset-x-0 top-4 -z-10 flex transform-gpu justify-center overflow-hidden blur-3xl"
+          aria-hidden="true"
+        >
+          <div
+            className="aspect-[1108/632] w-[69.25rem] flex-none bg-gradient-to-r from-[#80caff] to-[#4f46e5] opacity-25"
+            style={{
+              clipPath:
+                "polygon(73.6% 51.7%, 91.7% 11.8%, 100% 46.4%, 97.4% 82.2%, 92.5% 84.9%, 75.7% 64%, 55.3% 47.5%, 46.5% 49.4%, 45% 62.9%, 50.3% 87.2%, 21.3% 64.1%, 0.1% 100%, 5.4% 51.1%, 21.4% 63.9%, 58.9% 0.2%, 73.6% 51.7%)",
+            }}
+          />
+        </div>
+        <div className="relative h-full w-full">
+          <div className="relative items-center text-center">
+            <div className="relative mx-auto max-w-7xl py-24 sm:py-32 lg:px-8 lg:py-40">
+              <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">
+                Esteban Salguero
+              </p>
+              <p className="mt-6 text-base leading-7 text-esteban_blue_light">
+                Software Engineer
+              </p>
+              <div className="mt-8">
+                <Link
+                  href="/resume"
+                  className="inline-flex rounded-md bg-white/10 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-esteban_blue_light focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+                >
+                  See my resume
+                </Link>
               </div>
             </div>
           </div>
-        </main>
-        <Footer />
-      </div>
-    </>
-    //  absolute left-0 bottom-0 right-0
+        </div>
+      </main>
+      <Footer />
+    </div>
   );
 };
 
