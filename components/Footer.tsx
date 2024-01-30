@@ -75,7 +75,7 @@ export const Footer = () => {
             ))}
           </div>
           <p className="mt-8 text-base text-white md:order-1 md:mt-0">
-            &copy; 2023 by Esteban. All rights reserved.
+            &copy; 2024 by Esteban. All rights reserved.
           </p>
         </div>
       </div>
