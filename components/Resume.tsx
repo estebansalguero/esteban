@@ -42,7 +42,6 @@ const jobs = [
     role: "Coding the next level of technology",
     imageUrl: "https://avatars.githubusercontent.com/u/84299171?s=200&v=4",
     githubUrl: "https://github.com/NovuSource",
-    linkedinUrl: "#",
     icon: (props: any) => (
       <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
         <path
