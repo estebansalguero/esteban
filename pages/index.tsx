@@ -4,9 +4,9 @@ import Link from "next/link";
 
 const Index = () => {
   return (
-    <div className="bg-esteban_blue">
+    <div className="flex flex-col min-h-screen bg-esteban_blue">
       <Header />
-      <main className="min-h-full isolate">
+      <main className="flex-grow">
         <div
           className="absolute w-full h-full inset-x-0 top-4 -z-10 flex transform-gpu justify-center overflow-hidden blur-3xl"
           aria-hidden="true"
