@@ -62,7 +62,7 @@ const languages = [
   },
   {
     name: "English",
-    level: "70%",
+    level: "80%",
     icon: LanguageIcon,
   },
 ];
