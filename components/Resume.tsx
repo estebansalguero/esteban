@@ -5,12 +5,12 @@ import Link from "next/link";
 const formalEducation = [
   {
     name: "Fidélitas University",
-    description: "Systems Engineering – 2021 - Studying",
+    description: "Systems Engineering – 2024 (Awaiting graduation in October 2024)",
     icon: AcademicCapIcon,
   },
   {
     name: "Professional Technical College of Granadilla",
-    description: "Baccalaureate in Secondary Education – 2020",
+    description: " High School diploma – 2020",
     icon: AcademicCapIcon,
   },
 ];
@@ -45,9 +45,9 @@ const jobs = [
     githubUrl: "https://www.linkedin.com/company/tekexperts/",
     icon: (props: any) => (
       <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
-        <path fill-rule="evenodd" clip-rule="evenodd" d="M5 1.25C3.48122 1.25 2.25 2.48122 2.25 4C2.25 5.51878 3.48122 6.75 5 6.75C6.51878 6.75 7.75 5.51878 7.75 4C7.75 2.48122 6.51878 1.25 5 1.25ZM3.75 4C3.75 3.30964 4.30964 2.75 5 2.75C5.69036 2.75 6.25 3.30964 6.25 4C6.25 4.69036 5.69036 5.25 5 5.25C4.30964 5.25 3.75 4.69036 3.75 4Z"/>
-        <path fill-rule="evenodd" clip-rule="evenodd" d="M2.25 8C2.25 7.58579 2.58579 7.25 3 7.25H7C7.41421 7.25 7.75 7.58579 7.75 8V21C7.75 21.4142 7.41421 21.75 7 21.75H3C2.58579 21.75 2.25 21.4142 2.25 21V8ZM3.75 8.75V20.25H6.25V8.75H3.75Z"/>
-        <path fill-rule="evenodd" clip-rule="evenodd" d="M9.25 8C9.25 7.58579 9.58579 7.25 10 7.25H14C14.4142 7.25 14.75 7.58579 14.75 8V8.43402L15.1853 8.24748C15.9336 7.92676 16.7339 7.72565 17.5433 7.65207C20.3182 7.3998 22.75 9.58038 22.75 12.3802V21C22.75 21.4142 22.4142 21.75 22 21.75H18C17.5858 21.75 17.25 21.4142 17.25 21V14C17.25 13.6685 17.1183 13.3505 16.8839 13.1161C16.6495 12.8817 16.3315 12.75 16 12.75C15.6685 12.75 15.3505 12.8817 15.1161 13.1161C14.8817 13.3505 14.75 13.6685 14.75 14V21C14.75 21.4142 14.4142 21.75 14 21.75H10C9.58579 21.75 9.25 21.4142 9.25 21V8ZM10.75 8.75V20.25H13.25V14C13.25 13.2707 13.5397 12.5712 14.0555 12.0555C14.5712 11.5397 15.2707 11.25 16 11.25C16.7293 11.25 17.4288 11.5397 17.9445 12.0555C18.4603 12.5712 18.75 13.2707 18.75 14V20.25H21.25V12.3802C21.25 10.4759 19.589 8.97227 17.6791 9.14591C17.025 9.20536 16.3784 9.36807 15.7762 9.6262L14.2954 10.2608C14.0637 10.3601 13.7976 10.3363 13.5871 10.1976C13.3767 10.0588 13.25 9.82354 13.25 9.57143V8.75H10.75Z"/>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M5 1.25C3.48122 1.25 2.25 2.48122 2.25 4C2.25 5.51878 3.48122 6.75 5 6.75C6.51878 6.75 7.75 5.51878 7.75 4C7.75 2.48122 6.51878 1.25 5 1.25ZM3.75 4C3.75 3.30964 4.30964 2.75 5 2.75C5.69036 2.75 6.25 3.30964 6.25 4C6.25 4.69036 5.69036 5.25 5 5.25C4.30964 5.25 3.75 4.69036 3.75 4Z" />
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M2.25 8C2.25 7.58579 2.58579 7.25 3 7.25H7C7.41421 7.25 7.75 7.58579 7.75 8V21C7.75 21.4142 7.41421 21.75 7 21.75H3C2.58579 21.75 2.25 21.4142 2.25 21V8ZM3.75 8.75V20.25H6.25V8.75H3.75Z" />
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M9.25 8C9.25 7.58579 9.58579 7.25 10 7.25H14C14.4142 7.25 14.75 7.58579 14.75 8V8.43402L15.1853 8.24748C15.9336 7.92676 16.7339 7.72565 17.5433 7.65207C20.3182 7.3998 22.75 9.58038 22.75 12.3802V21C22.75 21.4142 22.4142 21.75 22 21.75H18C17.5858 21.75 17.25 21.4142 17.25 21V14C17.25 13.6685 17.1183 13.3505 16.8839 13.1161C16.6495 12.8817 16.3315 12.75 16 12.75C15.6685 12.75 15.3505 12.8817 15.1161 13.1161C14.8817 13.3505 14.75 13.6685 14.75 14V21C14.75 21.4142 14.4142 21.75 14 21.75H10C9.58579 21.75 9.25 21.4142 9.25 21V8ZM10.75 8.75V20.25H13.25V14C13.25 13.2707 13.5397 12.5712 14.0555 12.0555C14.5712 11.5397 15.2707 11.25 16 11.25C16.7293 11.25 17.4288 11.5397 17.9445 12.0555C18.4603 12.5712 18.75 13.2707 18.75 14V20.25H21.25V12.3802C21.25 10.4759 19.589 8.97227 17.6791 9.14591C17.025 9.20536 16.3784 9.36807 15.7762 9.6262L14.2954 10.2608C14.0637 10.3601 13.7976 10.3363 13.5871 10.1976C13.3767 10.0588 13.25 9.82354 13.25 9.57143V8.75H10.75Z" />
       </svg>
     ),
   },
@@ -133,10 +133,10 @@ export const Resume = () => {
                   About me:
                 </h4>
                 <p className="mt-2">
-                  Advanced student of Systems Engineering at Fidélitas
-                  University with 89% of the degree completed, willing to learn
-                  new technologies and committed to delivering the best quality
-                  of work.
+                  Systems Engineer with the career completed at Universidad Fidélitas o
+                  nly waiting for my graduation date (October 2024), with total
+                  disposition to learn new technologies and committed to deliver
+                  the best quality of work.
                 </p>
               </div>
             </div>
@@ -150,32 +150,31 @@ export const Resume = () => {
                 Professional Experience:
               </h3>
               <p className="mt-2">
-                05/2022 – 01/2024 [Software Developer React/React Native]
-                [Novusource]
+                04/2024 - Present [Support Engineer on Microsoft Azure Monitoring and Automation] [Tek Experts]
               </p>
               <div className="mt-5">
                 <h4 className="text-lg font-medium leading-6 text-white">
                   Responsibilities:
                 </h4>
                 <p className="mt-2">
-                  Activities carried out by me at Novusource as a software
-                  developer are:
+                  Activities carried out by me at Tek Experts as a Support Engineer
+                  are:
                   <br />
-                  1. Develop web applications using React, creating dynamic, high-performance user interfaces.
+                  1. Provide advanced technical support for Microsoft Azure services, focused on monitoring and automation.
                   <br />
-                  2. Build mobile applications with React Native, ensuring cross-platform functionality for iOS and Android.
+                  2. Diagnose and resolve complex technical issues related to Azure infrastructure and monitoring solutions.
                   <br />
-                  3. Integrate and consume APIs to fetch and display dynamic data.
+                  3. Collaborate with internal and external teams to enhance automation solutions in Azure.
                   <br />
-                  4. Design and implement pages and components using Tailwind CSS, maintaining visual consistency.
+                  4. Configure and maintain custom alerts to monitor cloud resource performance.
                   <br />
-                  5. Manage code repositories with Git, ensuring effective version control and collaboration.
+                  5. Analyze resource usage and suggest improvements to optimize costs and performance.
                   <br />
-                  6. Create and document reusable UI components using StoryBook for a consistent design system.
+                  6. Automate repetitive tasks through scripts and workflows to save time and reduce human error.
                   <br />
-                  7. Develop and optimize GraphQL queries for efficient data retrieval and manipulation.
+                  7. Provide technical support and troubleshoot user inquiries and issues via tickets or direct communication.
                   <br />
-                  8. Design user interfaces and enhance user experience with Adobe XD and Figma, focusing on usability and accessibility.
+                  8. Document procedures and solutions, and provide training on effectively utilizing Azure services.
                   <br />
                 </p>
               </div>
@@ -183,31 +182,32 @@ export const Resume = () => {
             <div>
               <div className="mt-0">
                 <p className="mt-2">
-                  04/2024 - Present [Support Engineer on Microsoft Azure Monitoring and Automation] [Tek Experts]
+                  05/2022 – 01/2024 [Software Developer React/React Native]
+                  [Novusource]
                 </p>
                 <div className="mt-5">
                   <h4 className="text-lg font-medium leading-6 text-white">
                     Responsibilities:
                   </h4>
                   <p className="mt-2">
-                    Activities carried out by me at Tek Experts as a Support Engineer
-                    are:
+                    Activities carried out by me at Novusource as a software
+                    developer are:
                     <br />
-                    1. Provide advanced technical support for Microsoft Azure services, focused on monitoring and automation.
+                    1. Develop web applications using React, creating dynamic, high-performance user interfaces.
                     <br />
-                    2. Diagnose and resolve complex technical issues related to Azure infrastructure and monitoring solutions.
+                    2. Build mobile applications with React Native, ensuring cross-platform functionality for iOS and Android.
                     <br />
-                    3. Collaborate with internal and external teams to enhance automation solutions in Azure.
+                    3. Integrate and consume APIs to fetch and display dynamic data.
                     <br />
-                    4. Configure and maintain custom alerts to monitor cloud resource performance.
+                    4. Design and implement pages and components using Tailwind CSS, maintaining visual consistency.
                     <br />
-                    5. Analyze resource usage and suggest improvements to optimize costs and performance.
+                    5. Manage code repositories with Git, ensuring effective version control and collaboration.
                     <br />
-                    6. Automate repetitive tasks through scripts and workflows to save time and reduce human error.
+                    6. Create and document reusable UI components using StoryBook for a consistent design system.
                     <br />
-                    7. Provide technical support and troubleshoot user inquiries and issues via tickets or direct communication.
+                    7. Develop and optimize GraphQL queries for efficient data retrieval and manipulation.
                     <br />
-                    8. Document procedures and solutions, and provide training on effectively utilizing Azure services.
+                    8. Design user interfaces and enhance user experience with Adobe XD and Figma, focusing on usability and accessibility.
                     <br />
                   </p>
                 </div>
