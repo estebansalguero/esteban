@@ -133,8 +133,8 @@ export const Resume = () => {
                   About me:
                 </h4>
                 <p className="mt-2">
-                  Systems Engineer with the career completed at Universidad Fidélitas o
-                  nly waiting for my graduation date (October 2024), with total
+                  Systems Engineer with the career completed at Universidad Fidélitas
+                  only waiting for my graduation date (October 2024), with total
                   disposition to learn new technologies and committed to deliver
                   the best quality of work.
                 </p>
