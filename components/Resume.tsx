@@ -4,8 +4,8 @@ import Link from "next/link";
 
 const formalEducation = [
   {
-    name: "Fidélitas University",
-    description: "Systems Engineering – 2024 (Awaiting graduation in October 2024)",
+    name: "",
+    description: "Systems Engineering – October 2024",
     icon: AcademicCapIcon,
   },
   {
@@ -33,6 +33,11 @@ const certificates = [
   {
     name: "CCNAv7: Switching, Routing and Wireless Essentials",
     description: "Cisco Networking Academy (2022)",
+    icon: AcademicCapIcon,
+  },
+  {
+    name: "Fidélitas University",
+    description: "Videogames development and systems security (2024)",
     icon: AcademicCapIcon,
   },
 ];
@@ -133,8 +138,7 @@ export const Resume = () => {
                   About me:
                 </h4>
                 <p className="mt-2">
-                  Systems Engineer with the career completed at Universidad Fidélitas
-                  only waiting for my graduation date (October 2024), with total
+                  Systems Engineer with the career completed at Universidad Fidélitas with total
                   disposition to learn new technologies and committed to deliver
                   the best quality of work.
                 </p>
