@@ -3,14 +3,16 @@ import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { Resume } from "@/components/Resume";
 
-const resume = () => {
+const ResumePage = () => {
   return (
-    <div className="min-h-full">
+    <div className="min-h-screen flex flex-col bg-esteban_blue">
       <Header />
-      <Resume />
+      <main className="flex-grow">
+        <Resume />
+      </main>
       <Footer />
     </div>
   );
 };
 
-export default resume;
+export default ResumePage;

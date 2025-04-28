@@ -6,7 +6,8 @@ const Index = () => {
   return (
     <div className="flex flex-col min-h-screen bg-esteban_blue">
       <Header />
-      <main className="flex-grow">
+
+      <main className="relative isolate flex-grow">
         <div
           className="absolute w-full h-full inset-x-0 top-4 -z-10 flex transform-gpu justify-center overflow-hidden blur-3xl"
           aria-hidden="true"
@@ -19,6 +20,7 @@ const Index = () => {
             }}
           />
         </div>
+
         <div className="relative h-full w-full">
           <div className="relative items-center text-center">
             <div className="relative mx-auto max-w-7xl py-24 sm:py-32 lg:px-8 lg:py-40">
@@ -26,11 +28,11 @@ const Index = () => {
                 Esteban Salguero
               </p>
               <p className="mt-6 text-base leading-7 text-esteban_blue_light">
-                Software Engineer
+                Systems Engineer
               </p>
               <div className="mt-8">
                 <Link
-                  href="/resume"
+                  href="/resumePage"
                   className="inline-flex rounded-md bg-white/10 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-esteban_blue_light focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
                 >
                   See my resume
