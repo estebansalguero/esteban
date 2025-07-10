@@ -49,11 +49,11 @@ const certifications = [
 ];
 const jobs = [
   {
-    name: "Tek Experts",
-    role: "IT Services and IT Consulting",
+    name: "ServiceNow",
+    role: "Our work makes the world work",
     imageUrl:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBo1JoIsPdwGt74gRsVAwZ27C5fk3iAVwZfQ&s",
-    githubUrl: "https://www.linkedin.com/company/tekexperts/",
+      "https://www.tufin.com/wp-content/uploads/2023/06/001_Service_now.jpeg",
+    companyUrl: "https://www.linkedin.com/company/servicenow/posts/?feedView=all",
     icon: (props: any) => (
       <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
         <path
@@ -75,10 +75,36 @@ const jobs = [
     ),
   },
   {
-    name: "NovuSource",
+    name: "Tek Experts (TeKnowledge)",
+    role: "It services and consulting",
+    imageUrl:
+      "https://cdn.brandfetch.io/elev8me.com/fallback/lettermark/theme/dark/h/256/w/256/icon?c=1bfwsmEH20zzEfSNTed",
+    companyUrl: "https://www.linkedin.com/company/tekexperts/",
+    icon: (props: any) => (
+      <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M5 1.25C3.48122 1.25 2.25 2.48122 2.25 4C2.25 5.51878 3.48122 6.75 5 6.75C6.51878 6.75 7.75 5.51878 7.75 4C7.75 2.48122 6.51878 1.25 5 1.25ZM3.75 4C3.75 3.30964 4.30964 2.75 5 2.75C5.69036 2.75 6.25 3.30964 6.25 4C6.25 4.69036 5.69036 5.25 5 5.25C4.30964 5.25 3.75 4.69036 3.75 4Z"
+        />
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M2.25 8C2.25 7.58579 2.58579 7.25 3 7.25H7C7.41421 7.25 7.75 7.58579 7.75 8V21C7.75 21.4142 7.41421 21.75 7 21.75H3C2.58579 21.75 2.25 21.4142 2.25 21V8ZM3.75 8.75V20.25H6.25V8.75H3.75Z"
+        />
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M9.25 8C9.25 7.58579 9.58579 7.25 10 7.25H14C14.4142 7.25 14.75 7.58579 14.75 8V8.43402L15.1853 8.24748C15.9336 7.92676 16.7339 7.72565 17.5433 7.65207C20.3182 7.3998 22.75 9.58038 22.75 12.3802V21C22.75 21.4142 22.4142 21.75 22 21.75H18C17.5858 21.75 17.25 21.4142 17.25 21V14C17.25 13.6685 17.1183 13.3505 16.8839 13.1161C16.6495 12.8817 16.3315 12.75 16 12.75C15.6685 12.75 15.3505 12.8817 15.1161 13.1161C14.8817 13.3505 14.75 13.6685 14.75 14V21C14.75 21.4142 14.4142 21.75 14 21.75H10C9.58579 21.75 9.25 21.4142 9.25 21V8ZM10.75 8.75V20.25H13.25V14C13.25 13.2707 13.5397 12.5712 14.0555 12.0555C14.5712 11.5397 15.2707 11.25 16 11.25C16.7293 11.25 17.4288 11.5397 17.9445 12.0555C18.4603 12.5712 18.75 13.2707 18.75 14V20.25H21.25V12.3802C21.25 10.4759 19.589 8.97227 17.6791 9.14591C17.025 9.20536 16.3784 9.36807 15.7762 9.6262L14.2954 10.2608C14.0637 10.3601 13.7976 10.3363 13.5871 10.1976C13.3767 10.0588 13.25 9.82354 13.25 9.57143V8.75H10.75Z"
+        />
+      </svg>
+    ),
+  },
+  {
+    name: "NovuSource (PixelHeart Digital)",
     role: "Coding the next level of technology",
     imageUrl: "https://avatars.githubusercontent.com/u/84299171?s=200&v=4",
-    githubUrl: "https://github.com/NovuSource",
+    companyUrl: "https://github.com/NovuSource",
     icon: (props: any) => (
       <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
         <path
@@ -176,8 +202,44 @@ export const Resume = () => {
                 Professional Experience:
               </h3>
               <p className="mt-2 font-semibold">
-              Microsoft Azure Monitoring and
-              Automation Engineer [Tek Experts, 04/2024 - Current]
+              User Experience Engineer [ServiceNow, 06/25 - Current]
+              </p>
+              <div className="mt-5">
+                <h4 className="text-lg font-medium leading-6 text-white">
+                  Responsibilities:
+                </h4>
+                <p className="mt-2">
+                  Activities carried out by me at ServiceNow
+                  as a User Experience Engineer are:
+                  <br />
+                  1. Elaborate queries to create alerts based on services.
+                  <br />
+                  2. Diagnose and resolve complex technical issues related to
+                  Azure infrastructure and monitoring solutions.
+                  <br />
+                  3. Collaborate with internal and external teams to enhance
+                  automation solutions in Azure.
+                  <br />
+                  4. Apply relevant technical knowledge to the solution using
+                  technical documentation and teamwork to solve different
+                  issues.
+                  <br />
+                  5. Analyze resource usage and suggest improvements to optimize
+                  costs and performance.
+                  <br />
+                  6. Creation of scripts in programming languages such as Python
+                  and PowerShell to automate tasks.
+                  <br />
+                  7. Manage the installation of upgrade packages from both
+                  Windows and Linux using Azure or the OS CLI.
+                </p>
+              </div>
+            </div>
+            <div>
+              <div className="mt-0">
+                <p className="mt-8 font-semibold">
+                Microsoft Azure Monitor &
+              Automation Engineer [Tek Experts, 04/24 - 06/25]
               </p>
               <div className="mt-5">
                 <h4 className="text-lg font-medium leading-6 text-white">
@@ -207,13 +269,14 @@ export const Resume = () => {
                   <br />
                   7. Manage the installation of upgrade packages from both
                   Windows and Linux using Azure or the OS CLI.
-                </p>
+                  </p>
+                </div>
               </div>
             </div>
             <div>
-              <div className="mt-0">
-                <p className="mt-8 font-semibold">
-                Software Developer React/React Native [Novusource, 05/2022 – 01/2024]
+              
+              <p className="mt-2 font-semibold">
+              Software Developer React/React Native [Novusource, 05/22 – 01/24]
                 </p>
                 <div className="mt-5">
                   <h4 className="text-lg font-medium leading-6 text-white">
@@ -246,9 +309,7 @@ export const Resume = () => {
                     <br />
                     8. Design user interfaces and enhance user experience with
                     Adobe XD and Figma, focusing on usability and accessibility.
-                    <br />
-                  </p>
-                </div>
+                </p>
               </div>
             </div>
           </div>
@@ -346,7 +407,7 @@ export const Resume = () => {
                   <ul role="list" className="mt-6 flex justify-center gap-x-6">
                     <li>
                       <Link
-                        href={jobs.githubUrl}
+                        href={jobs.companyUrl}
                         className="text-gray-400 hover:text-gray-300"
                         target="_blank"
                       >
