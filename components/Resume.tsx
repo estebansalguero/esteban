@@ -53,7 +53,8 @@ const jobs = [
     role: "Our work makes the world work",
     imageUrl:
       "https://www.tufin.com/wp-content/uploads/2023/06/001_Service_now.jpeg",
-    companyUrl: "https://www.linkedin.com/company/servicenow/posts/?feedView=all",
+    companyUrl:
+      "https://www.linkedin.com/company/servicenow/posts/?feedView=all",
     icon: (props: any) => (
       <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
         <path
@@ -202,113 +203,116 @@ export const Resume = () => {
                 Professional Experience:
               </h3>
               <p className="mt-2 font-semibold">
-              User Experience Engineer [ServiceNow, 06/25 - Current]
+                User Experience Engineer [ServiceNow, 06/25 - Current]
               </p>
               <div className="mt-5">
                 <h4 className="text-lg font-medium leading-6 text-white">
                   Responsibilities:
                 </h4>
                 <p className="mt-2">
-                  Activities carried out by me at ServiceNow
-                  as a User Experience Engineer are:
+                  Activities carried out by me at ServiceNow as a User Experience 
+                  Engineer are:
                   <br />
-                  1. Elaborate queries to create alerts based on services.
+                  1. Resolve technical cases created by customers, providing
+                  guidance and troubleshooting support on unexpected behaviors
+                  in the ServiceNow platform.
                   <br />
-                  2. Diagnose and resolve complex technical issues related to
-                  Azure infrastructure and monitoring solutions.
+                  2. Communicate effectively with customers through web, chat,
+                  email, and phone to ensure a smooth support experience.
                   <br />
-                  3. Collaborate with internal and external teams to enhance
-                  automation solutions in Azure.
+                  3. Use diagnostic tools and log analysis to identify root
+                  causes and propose solutions for issues involving platform
+                  functionalities.
                   <br />
-                  4. Apply relevant technical knowledge to the solution using
-                  technical documentation and teamwork to solve different
-                  issues.
+                  4. Read and analyze JavaScript and Java code to understand the
+                  behavior of custom scripts and business rules.
                   <br />
-                  5. Analyze resource usage and suggest improvements to optimize
-                  costs and performance.
+                  5. Collaborate with other internal teams for complex issues,
+                  escalating as necessary to ensure timely resolution.
                   <br />
-                  6. Creation of scripts in programming languages such as Python
-                  and PowerShell to automate tasks.
+                  6. Document solutions and contribute to the knowledge base to
+                  improve future case resolution.
                   <br />
-                  7. Manage the installation of upgrade packages from both
-                  Windows and Linux using Azure or the OS CLI.
+                  7. Explore and evaluate the integration of AI-powered tools to
+                  improve efficiency in troubleshooting and decision-making
+                  processes.
                 </p>
               </div>
             </div>
             <div>
               <div className="mt-0">
                 <p className="mt-8 font-semibold">
-                Microsoft Azure Monitor &
-              Automation Engineer [Tek Experts, 04/24 - 06/25]
-              </p>
-              <div className="mt-5">
-                <h4 className="text-lg font-medium leading-6 text-white">
-                  Responsibilities:
-                </h4>
-                <p className="mt-2">
-                  Activities carried out by me at Tek Experts as a Cloud
-                  Engineer are:
-                  <br />
-                  1. Elaborate queries to create alerts based on services.
-                  <br />
-                  2. Diagnose and resolve complex technical issues related to
-                  Azure infrastructure and monitoring solutions.
-                  <br />
-                  3. Collaborate with internal and external teams to enhance
-                  automation solutions in Azure.
-                  <br />
-                  4. Apply relevant technical knowledge to the solution using
-                  technical documentation and teamwork to solve different
-                  issues.
-                  <br />
-                  5. Analyze resource usage and suggest improvements to optimize
-                  costs and performance.
-                  <br />
-                  6. Creation of scripts in programming languages such as Python
-                  and PowerShell to automate tasks.
-                  <br />
-                  7. Manage the installation of upgrade packages from both
-                  Windows and Linux using Azure or the OS CLI.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div>
-              
-              <p className="mt-2 font-semibold">
-              Software Developer React/React Native [Novusource, 05/22 – 01/24]
+                  Microsoft Azure Monitor & Automation Engineer [Tek Experts,
+                  04/24 - 06/25]
                 </p>
                 <div className="mt-5">
                   <h4 className="text-lg font-medium leading-6 text-white">
                     Responsibilities:
                   </h4>
                   <p className="mt-2">
-                    Activities carried out by me at Novusource as a software
-                    developer are:
+                    Activities carried out by me at Tek Experts as a Cloud
+                    Engineer are:
                     <br />
-                    1. Develop web applications using React, creating dynamic,
-                    high-performance user interfaces.
+                    1. Elaborate queries to create alerts based on services.
                     <br />
-                    2. Build mobile applications with React Native, ensuring
-                    cross-platform functionality for iOS and Android.
+                    2. Diagnose and resolve complex technical issues related to
+                    Azure infrastructure and monitoring solutions.
                     <br />
-                    3. Integrate and consume APIs to fetch and display dynamic
-                    data.
+                    3. Collaborate with internal and external teams to enhance
+                    automation solutions in Azure.
                     <br />
-                    4. Design and implement pages and components using Tailwind
-                    CSS, maintaining visual consistency.
+                    4. Apply relevant technical knowledge to the solution using
+                    technical documentation and teamwork to solve different
+                    issues.
                     <br />
-                    5. Manage code repositories with Git, ensuring effective
-                    version control and collaboration.
+                    5. Analyze resource usage and suggest improvements to
+                    optimize costs and performance.
                     <br />
-                    6. Create and document reusable UI components using
-                    StoryBook for a consistent design system.
+                    6. Creation of scripts in programming languages such as
+                    Python and PowerShell to automate tasks.
                     <br />
-                    7. Develop and optimize GraphQL queries for efficient data
-                    retrieval and manipulation.
-                    <br />
-                    8. Design user interfaces and enhance user experience with
-                    Adobe XD and Figma, focusing on usability and accessibility.
+                    7. Manage the installation of upgrade packages from both
+                    Windows and Linux using Azure or the OS CLI.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <p className="mt-2 font-semibold">
+                Software Developer React/React Native [Novusource, 05/22 –
+                01/24]
+              </p>
+              <div className="mt-5">
+                <h4 className="text-lg font-medium leading-6 text-white">
+                  Responsibilities:
+                </h4>
+                <p className="mt-2">
+                  Activities carried out by me at Novusource as a software
+                  developer are:
+                  <br />
+                  1. Develop web applications using React, creating dynamic,
+                  high-performance user interfaces.
+                  <br />
+                  2. Build mobile applications with React Native, ensuring
+                  cross-platform functionality for iOS and Android.
+                  <br />
+                  3. Integrate and consume APIs to fetch and display dynamic
+                  data.
+                  <br />
+                  4. Design and implement pages and components using Tailwind
+                  CSS, maintaining visual consistency.
+                  <br />
+                  5. Manage code repositories with Git, ensuring effective
+                  version control and collaboration.
+                  <br />
+                  6. Create and document reusable UI components using StoryBook
+                  for a consistent design system.
+                  <br />
+                  7. Develop and optimize GraphQL queries for efficient data
+                  retrieval and manipulation.
+                  <br />
+                  8. Design user interfaces and enhance user experience with
+                  Adobe XD and Figma, focusing on usability and accessibility.
                 </p>
               </div>
             </div>
