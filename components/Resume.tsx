@@ -53,9 +53,10 @@ const jobs = [
     role: "Our work makes the world work",
     imageUrl:
       "https://www.tufin.com/wp-content/uploads/2023/06/001_Service_now.jpeg",
-    companyUrl:
+    companyUrl1:
       "https://www.linkedin.com/company/servicenow/posts/?feedView=all",
-    icon: (props: any) => (
+    companyUrl2: "https://www.servicenow.com/",
+    icon1: (props: any) => (
       <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
         <path
           fill-rule="evenodd"
@@ -72,6 +73,22 @@ const jobs = [
           clip-rule="evenodd"
           d="M9.25 8C9.25 7.58579 9.58579 7.25 10 7.25H14C14.4142 7.25 14.75 7.58579 14.75 8V8.43402L15.1853 8.24748C15.9336 7.92676 16.7339 7.72565 17.5433 7.65207C20.3182 7.3998 22.75 9.58038 22.75 12.3802V21C22.75 21.4142 22.4142 21.75 22 21.75H18C17.5858 21.75 17.25 21.4142 17.25 21V14C17.25 13.6685 17.1183 13.3505 16.8839 13.1161C16.6495 12.8817 16.3315 12.75 16 12.75C15.6685 12.75 15.3505 12.8817 15.1161 13.1161C14.8817 13.3505 14.75 13.6685 14.75 14V21C14.75 21.4142 14.4142 21.75 14 21.75H10C9.58579 21.75 9.25 21.4142 9.25 21V8ZM10.75 8.75V20.25H13.25V14C13.25 13.2707 13.5397 12.5712 14.0555 12.0555C14.5712 11.5397 15.2707 11.25 16 11.25C16.7293 11.25 17.4288 11.5397 17.9445 12.0555C18.4603 12.5712 18.75 13.2707 18.75 14V20.25H21.25V12.3802C21.25 10.4759 19.589 8.97227 17.6791 9.14591C17.025 9.20536 16.3784 9.36807 15.7762 9.6262L14.2954 10.2608C14.0637 10.3601 13.7976 10.3363 13.5871 10.1976C13.3767 10.0588 13.25 9.82354 13.25 9.57143V8.75H10.75Z"
         />
+      </svg>
+    ),
+    icon2: (props: any) => (
+      <svg
+        fill="currentColor"
+        height="200px"
+        width="200px"
+        viewBox="0 0 57.132 57.132"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlnsXlink="http://www.w3.org/1999/xlink"
+        xmlSpace="preserve"
+        {...props}
+      >
+        <g>
+          <path d="M53.707,41.526c2.113-4.032,3.234-8.57,3.234-13.151C56.941,12.729,44.212,0,28.566,0S0.191,12.729,0.191,28.375 S12.919,56.75,28.566,56.75c4.376,0,8.56-0.976,12.452-2.882l2.699,2.699c0.365,0.364,0.851,0.564,1.367,0.564 s1.002-0.2,1.367-0.565l9.79-9.791c0.364-0.364,0.565-0.85,0.565-1.367c0-0.518-0.201-1.003-0.565-1.367L53.707,41.526z M49.056,36.91c1.683-0.519,3.349-1.103,4.99-1.748c-0.447,1.685-1.063,3.32-1.833,4.881L49.056,36.91z M48.06,26.289 c-0.21-0.508-0.729-0.812-1.39-0.812h-6.71c-0.081-1.851-0.228-3.694-0.454-5.522c5.067,0.84,10.076,2.249,14.938,4.264 c0.056,0.023,0.114,0.022,0.172,0.034c0.212,1.344,0.324,2.72,0.324,4.122c0,1.503-0.138,2.999-0.391,4.474 c-0.035,0.01-0.071,0.006-0.105,0.02c-2.275,0.942-4.626,1.767-6.988,2.454L43.8,31.695l3.851-3.85 C48.118,27.378,48.27,26.797,48.06,26.289z M25.153,27.411v10.508c-1.84-0.093-3.67-0.253-5.486-0.493 c-0.792-5.905-0.791-11.873,0.002-17.778c5.904-0.793,11.871-0.794,17.776-0.002c0.255,1.93,0.425,3.875,0.514,5.833H27.086 C26.02,25.477,25.153,26.344,25.153,27.411z M2.578,32.848c-0.25-1.455-0.387-2.948-0.387-4.473c0-1.402,0.112-2.779,0.324-4.122 c0.057-0.013,0.116-0.01,0.172-0.034c4.859-2.013,9.864-3.421,14.928-4.262c-0.718,5.702-0.718,11.457-0.002,17.159 c-5.109-0.837-10.105-2.25-14.926-4.247C2.651,32.854,2.614,32.858,2.578,32.848z M54.148,21.961 c-4.876-1.929-9.882-3.297-14.946-4.089c-0.796-5.146-2.168-10.182-4.107-15.052C44.44,5.208,51.801,12.601,54.148,21.961z M32.83,2.35c0.007,0.106,0.019,0.212,0.062,0.315c1.997,4.822,3.412,9.818,4.249,14.926c-5.703-0.717-11.458-0.716-17.161,0.002 c0.841-5.063,2.249-10.068,4.262-14.927c0.043-0.103,0.055-0.21,0.062-0.315C25.691,2.123,27.114,2,28.566,2 S31.441,2.123,32.83,2.35z M22.038,2.819c-1.955,4.911-3.339,9.955-4.139,15.058c-5.054,0.793-10.05,2.159-14.916,4.084 C5.331,12.6,12.693,5.207,22.038,2.819z M3.082,35.168c4.795,1.887,9.749,3.229,14.811,4.012c0.779,4.983,2.119,9.91,3.999,14.713 C12.743,51.498,5.519,44.301,3.082,35.168z M24.227,54.387c-2.007-4.853-3.412-9.85-4.25-14.906c1.715,0.212,3.441,0.355,5.176,0.44 v7.074c0,1.018,0.664,1.482,1.28,1.482c0.268,0,0.672-0.087,1.087-0.502l3.756-3.85l3.894,3.894c-0.65,2.157-1.409,4.3-2.266,6.372 c-1.42,0.234-2.866,0.358-4.337,0.358C27.088,54.75,25.639,54.622,24.227,54.387z M35.236,53.894 c0.552-1.411,1.059-2.842,1.519-4.289l2.762,2.762C38.127,53.004,36.699,53.513,35.236,53.894z M45.084,55.106L32.69,42.711 c-0.364-0.365-0.85-0.565-1.367-0.565s-1.003,0.201-1.367,0.565l-2.808,2.808l-0.062-18.042l18.103,0l-2.804,2.804 c-0.752,0.753-0.752,1.979,0.001,2.733l12.441,12.347L45.084,55.106z" />
+        </g>
       </svg>
     ),
   },
@@ -80,8 +97,9 @@ const jobs = [
     role: "It services and consulting",
     imageUrl:
       "https://cdn.brandfetch.io/elev8me.com/fallback/lettermark/theme/dark/h/256/w/256/icon?c=1bfwsmEH20zzEfSNTed",
-    companyUrl: "https://www.linkedin.com/company/tekexperts/",
-    icon: (props: any) => (
+    companyUrl1: "https://www.linkedin.com/company/tekexperts/",
+    companyUrl2: "https://teknowledge.com/",
+    icon1: (props: any) => (
       <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
         <path
           fill-rule="evenodd"
@@ -100,19 +118,52 @@ const jobs = [
         />
       </svg>
     ),
+    icon2: (props: any) => (
+      <svg
+        fill="currentColor"
+        height="200px"
+        width="200px"
+        viewBox="0 0 57.132 57.132"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlnsXlink="http://www.w3.org/1999/xlink"
+        xmlSpace="preserve"
+        {...props}
+      >
+        <g>
+          <path d="M53.707,41.526c2.113-4.032,3.234-8.57,3.234-13.151C56.941,12.729,44.212,0,28.566,0S0.191,12.729,0.191,28.375 S12.919,56.75,28.566,56.75c4.376,0,8.56-0.976,12.452-2.882l2.699,2.699c0.365,0.364,0.851,0.564,1.367,0.564 s1.002-0.2,1.367-0.565l9.79-9.791c0.364-0.364,0.565-0.85,0.565-1.367c0-0.518-0.201-1.003-0.565-1.367L53.707,41.526z M49.056,36.91c1.683-0.519,3.349-1.103,4.99-1.748c-0.447,1.685-1.063,3.32-1.833,4.881L49.056,36.91z M48.06,26.289 c-0.21-0.508-0.729-0.812-1.39-0.812h-6.71c-0.081-1.851-0.228-3.694-0.454-5.522c5.067,0.84,10.076,2.249,14.938,4.264 c0.056,0.023,0.114,0.022,0.172,0.034c0.212,1.344,0.324,2.72,0.324,4.122c0,1.503-0.138,2.999-0.391,4.474 c-0.035,0.01-0.071,0.006-0.105,0.02c-2.275,0.942-4.626,1.767-6.988,2.454L43.8,31.695l3.851-3.85 C48.118,27.378,48.27,26.797,48.06,26.289z M25.153,27.411v10.508c-1.84-0.093-3.67-0.253-5.486-0.493 c-0.792-5.905-0.791-11.873,0.002-17.778c5.904-0.793,11.871-0.794,17.776-0.002c0.255,1.93,0.425,3.875,0.514,5.833H27.086 C26.02,25.477,25.153,26.344,25.153,27.411z M2.578,32.848c-0.25-1.455-0.387-2.948-0.387-4.473c0-1.402,0.112-2.779,0.324-4.122 c0.057-0.013,0.116-0.01,0.172-0.034c4.859-2.013,9.864-3.421,14.928-4.262c-0.718,5.702-0.718,11.457-0.002,17.159 c-5.109-0.837-10.105-2.25-14.926-4.247C2.651,32.854,2.614,32.858,2.578,32.848z M54.148,21.961 c-4.876-1.929-9.882-3.297-14.946-4.089c-0.796-5.146-2.168-10.182-4.107-15.052C44.44,5.208,51.801,12.601,54.148,21.961z M32.83,2.35c0.007,0.106,0.019,0.212,0.062,0.315c1.997,4.822,3.412,9.818,4.249,14.926c-5.703-0.717-11.458-0.716-17.161,0.002 c0.841-5.063,2.249-10.068,4.262-14.927c0.043-0.103,0.055-0.21,0.062-0.315C25.691,2.123,27.114,2,28.566,2 S31.441,2.123,32.83,2.35z M22.038,2.819c-1.955,4.911-3.339,9.955-4.139,15.058c-5.054,0.793-10.05,2.159-14.916,4.084 C5.331,12.6,12.693,5.207,22.038,2.819z M3.082,35.168c4.795,1.887,9.749,3.229,14.811,4.012c0.779,4.983,2.119,9.91,3.999,14.713 C12.743,51.498,5.519,44.301,3.082,35.168z M24.227,54.387c-2.007-4.853-3.412-9.85-4.25-14.906c1.715,0.212,3.441,0.355,5.176,0.44 v7.074c0,1.018,0.664,1.482,1.28,1.482c0.268,0,0.672-0.087,1.087-0.502l3.756-3.85l3.894,3.894c-0.65,2.157-1.409,4.3-2.266,6.372 c-1.42,0.234-2.866,0.358-4.337,0.358C27.088,54.75,25.639,54.622,24.227,54.387z M35.236,53.894 c0.552-1.411,1.059-2.842,1.519-4.289l2.762,2.762C38.127,53.004,36.699,53.513,35.236,53.894z M45.084,55.106L32.69,42.711 c-0.364-0.365-0.85-0.565-1.367-0.565s-1.003,0.201-1.367,0.565l-2.808,2.808l-0.062-18.042l18.103,0l-2.804,2.804 c-0.752,0.753-0.752,1.979,0.001,2.733l12.441,12.347L45.084,55.106z" />
+        </g>
+      </svg>
+    ),
   },
   {
     name: "NovuSource (PixelHeart Digital)",
     role: "Coding the next level of technology",
     imageUrl: "https://avatars.githubusercontent.com/u/84299171?s=200&v=4",
-    companyUrl: "https://github.com/NovuSource",
-    icon: (props: any) => (
+    companyUrl1: "https://github.com/PixelHeartDigital",
+    companyUrl2: "https://www.pixelheart.digital/en",
+    icon1: (props: any) => (
       <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
         <path
           fillRule="evenodd"
           d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
           clipRule="evenodd"
         />
+      </svg>
+    ),
+    icon2: (props: any) => (
+      <svg
+        fill="currentColor"
+        height="200px"
+        width="200px"
+        viewBox="0 0 57.132 57.132"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlnsXlink="http://www.w3.org/1999/xlink"
+        xmlSpace="preserve"
+        {...props}
+      >
+        <g>
+          <path d="M53.707,41.526c2.113-4.032,3.234-8.57,3.234-13.151C56.941,12.729,44.212,0,28.566,0S0.191,12.729,0.191,28.375 S12.919,56.75,28.566,56.75c4.376,0,8.56-0.976,12.452-2.882l2.699,2.699c0.365,0.364,0.851,0.564,1.367,0.564 s1.002-0.2,1.367-0.565l9.79-9.791c0.364-0.364,0.565-0.85,0.565-1.367c0-0.518-0.201-1.003-0.565-1.367L53.707,41.526z M49.056,36.91c1.683-0.519,3.349-1.103,4.99-1.748c-0.447,1.685-1.063,3.32-1.833,4.881L49.056,36.91z M48.06,26.289 c-0.21-0.508-0.729-0.812-1.39-0.812h-6.71c-0.081-1.851-0.228-3.694-0.454-5.522c5.067,0.84,10.076,2.249,14.938,4.264 c0.056,0.023,0.114,0.022,0.172,0.034c0.212,1.344,0.324,2.72,0.324,4.122c0,1.503-0.138,2.999-0.391,4.474 c-0.035,0.01-0.071,0.006-0.105,0.02c-2.275,0.942-4.626,1.767-6.988,2.454L43.8,31.695l3.851-3.85 C48.118,27.378,48.27,26.797,48.06,26.289z M25.153,27.411v10.508c-1.84-0.093-3.67-0.253-5.486-0.493 c-0.792-5.905-0.791-11.873,0.002-17.778c5.904-0.793,11.871-0.794,17.776-0.002c0.255,1.93,0.425,3.875,0.514,5.833H27.086 C26.02,25.477,25.153,26.344,25.153,27.411z M2.578,32.848c-0.25-1.455-0.387-2.948-0.387-4.473c0-1.402,0.112-2.779,0.324-4.122 c0.057-0.013,0.116-0.01,0.172-0.034c4.859-2.013,9.864-3.421,14.928-4.262c-0.718,5.702-0.718,11.457-0.002,17.159 c-5.109-0.837-10.105-2.25-14.926-4.247C2.651,32.854,2.614,32.858,2.578,32.848z M54.148,21.961 c-4.876-1.929-9.882-3.297-14.946-4.089c-0.796-5.146-2.168-10.182-4.107-15.052C44.44,5.208,51.801,12.601,54.148,21.961z M32.83,2.35c0.007,0.106,0.019,0.212,0.062,0.315c1.997,4.822,3.412,9.818,4.249,14.926c-5.703-0.717-11.458-0.716-17.161,0.002 c0.841-5.063,2.249-10.068,4.262-14.927c0.043-0.103,0.055-0.21,0.062-0.315C25.691,2.123,27.114,2,28.566,2 S31.441,2.123,32.83,2.35z M22.038,2.819c-1.955,4.911-3.339,9.955-4.139,15.058c-5.054,0.793-10.05,2.159-14.916,4.084 C5.331,12.6,12.693,5.207,22.038,2.819z M3.082,35.168c4.795,1.887,9.749,3.229,14.811,4.012c0.779,4.983,2.119,9.91,3.999,14.713 C12.743,51.498,5.519,44.301,3.082,35.168z M24.227,54.387c-2.007-4.853-3.412-9.85-4.25-14.906c1.715,0.212,3.441,0.355,5.176,0.44 v7.074c0,1.018,0.664,1.482,1.28,1.482c0.268,0,0.672-0.087,1.087-0.502l3.756-3.85l3.894,3.894c-0.65,2.157-1.409,4.3-2.266,6.372 c-1.42,0.234-2.866,0.358-4.337,0.358C27.088,54.75,25.639,54.622,24.227,54.387z M35.236,53.894 c0.552-1.411,1.059-2.842,1.519-4.289l2.762,2.762C38.127,53.004,36.699,53.513,35.236,53.894z M45.084,55.106L32.69,42.711 c-0.364-0.365-0.85-0.565-1.367-0.565s-1.003,0.201-1.367,0.565l-2.808,2.808l-0.062-18.042l18.103,0l-2.804,2.804 c-0.752,0.753-0.752,1.979,0.001,2.733l12.441,12.347L45.084,55.106z" />
+        </g>
       </svg>
     ),
   },
@@ -210,32 +261,37 @@ export const Resume = () => {
                   Responsibilities:
                 </h4>
                 <p className="mt-2">
-                  Activities carried out by me at ServiceNow as a User Experience 
-                  Engineer are:
+                  Activities carried out by me at ServiceNow as a User
+                  Experience Engineer are:
                   <br />
-                  1. Resolve technical cases created by customers, providing
-                  guidance and troubleshooting support on unexpected behaviors
-                  in the ServiceNow platform.
+                  1. Provide advanced technical support to customers,
+                  troubleshooting complex issues related to the ServiceNow User
+                  Experience (UI, forms, lists, workspaces, portals, and
+                  accessibility).
                   <br />
-                  2. Communicate effectively with customers through web, chat,
-                  email, and phone to ensure a smooth support experience.
+                  2. Diagnose and resolve problems by analyzing logs, scripts,
+                  and configurations across client and server-side components.
                   <br />
-                  3. Use diagnostic tools and log analysis to identify root
-                  causes and propose solutions for issues involving platform
-                  functionalities.
+                  3. Collaborate closely with engineering and product teams to
+                  escalate and reproduce defects, providing detailed technical
+                  documentation to drive resolution.
                   <br />
-                  4. Read and analyze JavaScript and Java code to understand the
-                  behavior of custom scripts and business rules.
+                  4. Guide customers through best practices, UI customization
+                  options, and design-consistent solutions to improve adoption
+                  and usability.
                   <br />
-                  5. Collaborate with other internal teams for complex issues,
-                  escalating as necessary to ensure timely resolution.
+                  5. Communicate effectively with both technical and
+                  non-technical stakeholders, ensuring clear explanations of
+                  issues, root cause, and resolution steps.
                   <br />
-                  6. Document solutions and contribute to the knowledge base to
-                  improve future case resolution.
+                  6. Contribute to knowledge base articles, troubleshooting
+                  guides, and internal documentation to streamline future case
+                  handling.
                   <br />
-                  7. Explore and evaluate the integration of AI-powered tools to
-                  improve efficiency in troubleshooting and decision-making
-                  processes.
+                  7. Participate in continuous improvement initiatives by
+                  identifying recurring patterns, proposing automation
+                  opportunities, and suggesting product enhancements to
+                  strengthen the overall user experience.
                 </p>
               </div>
             </div>
@@ -319,9 +375,9 @@ export const Resume = () => {
           </div>
         </div>
 
-        <div className="mx-auto mt-16 max-w-7xl px-6 sm:mt-16 lg:px-8">
-          <div className="mx-auto max-w-7xl lg:mx-0">
-            <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
+        <div className="mx-auto mt-16 max-w-7xl px-6 sm:mt-16 lg:mx-0 lg:px-0">
+          <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
+            <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl text-center lg:text-left">
               Formal Education:
             </h2>
           </div>
@@ -341,9 +397,9 @@ export const Resume = () => {
           </dl>
         </div>
 
-        <div className="mx-auto mt-8 max-w-7xl px-6 sm:mt-8 lg:px-8">
-          <div className="mx-auto max-w-7xl lg:mx-0">
-            <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
+        <div className="mx-auto mt-16 max-w-7xl px-6 sm:mt-16 lg:mx-0 lg:px-0">
+          <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
+            <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl text-center lg:text-left">
               Certifications:
             </h2>
           </div>
@@ -363,9 +419,9 @@ export const Resume = () => {
           </dl>
         </div>
 
-        <div className="mx-auto mt-8 max-w-7xl px-6 sm:mt-8 lg:px-8">
-          <div className="mx-auto max-w-7xl lg:mx-0">
-            <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
+        <div className="mx-auto mt-16 max-w-7xl px-6 sm:mt-16 lg:mx-0 lg:px-0">
+          <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
+            <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl text-center lg:text-left">
               Languages:
             </h2>
           </div>
@@ -385,9 +441,9 @@ export const Resume = () => {
           </dl>
         </div>
 
-        <div className="mx-auto mt-16 max-w-7xl px-6 sm:mt-16 lg:px-8">
-          <div className="mx-auto max-w-7xl lg:mx-0">
-            <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
+        <div className="mx-auto mt-16 max-w-7xl px-6 sm:mt-16 lg:mx-0 lg:px-0">
+          <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
+            <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl text-center lg:text-left">
               Work Experience:
             </h2>
             <ul
@@ -410,14 +466,24 @@ export const Resume = () => {
                   <p className="text-sm leading-6 text-gray-400">{jobs.role}</p>
                   <ul role="list" className="mt-6 flex justify-center gap-x-6">
                     <li>
-                      <Link
-                        href={jobs.companyUrl}
-                        className="text-gray-400 hover:text-gray-300"
-                        target="_blank"
-                      >
-                        <span className="sr-only">Github</span>
-                        <jobs.icon className="h-6 w-6" aria-hidden="true" />
-                      </Link>
+                      <div className="flex items-center justify-center space-x-2">
+                        <Link
+                          href={jobs.companyUrl1}
+                          className="text-gray-400 hover:text-gray-300"
+                          target="_blank"
+                        >
+                          <span className="sr-only">Github</span>
+                          <jobs.icon1 className="h-5 w-5" aria-hidden="true" />
+                        </Link>
+                        <Link
+                          href={jobs.companyUrl2}
+                          className="text-gray-400 hover:text-gray-300"
+                          target="_blank"
+                        >
+                          <span className="sr-only">Github</span>
+                          <jobs.icon2 className="h-5 w-5" aria-hidden="true" />
+                        </Link>
+                      </div>
                     </li>
                   </ul>
                 </li>
